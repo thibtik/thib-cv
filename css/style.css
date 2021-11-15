@@ -69,6 +69,7 @@ li a:hover{
 }
 .navbar li{
     padding: 20px;
+    position: static;
 }
 .active {
     background: rgb(85, 133, 223);
@@ -92,7 +93,6 @@ li:hover{
     margin-top: 90px;
     font-family: cursive;
 }
-
 .banner .box1 img {
     margin-top:15px;
 }
@@ -104,6 +104,10 @@ li:hover{
     background-color: #13aa52;
     font-size: 16px;
     color: #fff;
+}
+.button-37 a{
+    color: rgb(255, 251, 251);
+    text-decoration: none;
 }
 .button-37:hover{
     box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
@@ -133,7 +137,6 @@ li:hover{
 .container .text{
     margin-top: 60px;
 }
-
 /* habbies */
 .section {
     width: 80%;
@@ -182,7 +185,6 @@ li:hover{
     margin: 20px 30px 0px 15px;
 }
 /* education */
-
 .banner3{
     background-image: url(../images/bg3.jpg);
     background-size: cover;
@@ -285,7 +287,6 @@ main h1{
     margin: 20px;
     width: 100%;
 }
-
 /* footer */
 .footer{
     background: rgb(28, 29, 28);
@@ -361,13 +362,6 @@ main h1{
        height: 180px;
        width: 180px;
    }
-   /* .container{
-       width: 100%;
-   } */
-   /* .container .box4 img{
-       width: 100%;
-       height: 20px;
-   } */
    .container .text1{
        margin:0 18px 0 18px ;
    }
@@ -484,9 +478,7 @@ main h1{
     }
     .banner3{
         height: 220px;
-    }
-    
-   
+    } 
 }
 @media (max-width: 834px){
     .search  {
@@ -610,11 +602,4 @@ main h1{
    .user {
        margin-right: 300px;
    }
-   /* .container{ */
-       /* width: 100%; */
-       /* flex-wrap: wrap; */
-   /* } */
-   /* .container .box5 img{
-       width: 150%;
-   } */
 }
